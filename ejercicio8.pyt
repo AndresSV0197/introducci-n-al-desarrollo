@@ -1,5 +1,9 @@
-richard = 70
-jeff = 68
-elon = 55
-promedio = (richard + jeff + elon) / 3
-print("El promedio de edad es:", promedio)
+# Ejercicio Temperatura
+temperatura = float(input("ingrese temperatura: "))
+if temperatura > 27:
+    print("comprar helado")
+elif temperatura < 15:
+    print("comprar chocolate")
+else:
+    print("comprar jugo de naranja")
+print("fin del programa")
